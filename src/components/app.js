@@ -8,13 +8,15 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/resume" exact component={Resume} />
-          <Route path="/projects/:id" component={ProjectInfo} />
-        </div>
-      </BrowserRouter>
+      <div>
+        <BrowserRouter>
+          <div>
+            <Route exact path="/" component={Home} />
+            <Route path="/resume" exact component={Resume} />
+            <Route path="/projects/:id" component={ProjectInfo} />
+          </div>
+        </BrowserRouter>
+      </div>
     )
   }
 
