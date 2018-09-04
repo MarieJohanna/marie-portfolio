@@ -1,0 +1,43 @@
+footer {
+  /* background-color: #F2F2F0; */
+  background-color: #eaebf1;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+footer h3 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer p {
+  margin-top: 5px;
+
+}
+
+footer span img {
+  width: 50px;
+}
+
+footer .copy {
+  margin-bottom: 15px;
+}
+
+footer h6 {
+  padding: 0;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #74CEB7;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #004056;
+}

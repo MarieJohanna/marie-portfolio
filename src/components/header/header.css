@@ -1,0 +1,53 @@
+header {
+  color: #071826;
+  /* background-color: #F2F2F0; */
+  background-color: #eaebf1;
+  font-weight: bold;
+  /* position: fixed; */
+  height: 50px;
+  width: 100vw;
+}
+
+nav ul {
+  float: right;
+  width: 35vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style-type: none;
+  float: left;
+  margin-left: 2%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #071826;
+}
+
+.nav-link:hover {
+  color: #96a2e8;
+}
+
+/* --- Mobile --- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  nav ul {
+    width: 100vw;
+    padding-left: 0;
+    font-size: 90%;
+  }
+  nav li {
+    margin-left: 0;
+  }
+
+}
+
+  /* --- Ipad --- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  nav ul {
+    width: 50vw;
+  }
+}
