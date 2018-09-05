@@ -42,13 +42,13 @@ class Resume extends React.Component {
               </p>
               <span className="mobile">
                 <span>
-              <h5>Languages</h5>
-              <p className="bottom">Swedish - Native</p>
-              <p className="line-space">English - Bilingual level</p>
-              <p className="line-space">Spanish – Bilingual level</p>
-              <p className="line-space">French - Intermediate</p>
-              </span>
-              {/* <h5>Other</h5>
+                  <h5>Languages</h5>
+                  <p className="bottom">Swedish - Native</p>
+                  <p className="line-space">English - Bilingual level</p>
+                  <p className="line-space">Spanish – Bilingual level</p>
+                  <p className="line-space">French - Intermediate</p>
+                </span>
+                {/* <h5>Other</h5>
               <h6>Social Engagement</h6>
               <p className="line-space">Mentor for a teenage girl during a year
                 through mentor.se, and now friends.
@@ -60,12 +60,12 @@ class Resume extends React.Component {
                 University of Linköping. Mainly responsible
                 for marketing activities.
               </p> */}
-              <span>
-              <h5>Interests</h5>
-              <p className="line-space">Fitness & Well-being</p>
-              <p className="line-space">Travel</p>
-              <p className="line-space">Designing Dresses</p>
-              </span>
+                <span>
+                  <h5>Interests</h5>
+                  <p className="line-space">Fitness & Well-being</p>
+                  <p className="line-space">Travel</p>
+                  <p className="line-space">Designing Dresses</p>
+                </span>
               </span>
             </div>
             <div className="resume_info_main">

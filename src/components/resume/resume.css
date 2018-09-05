@@ -55,6 +55,10 @@
   text-transform: capitalize;
 }
 
+.resume_info_main h3 {
+  border-bottom: 1px dotted #071826;
+}
+
 .resume_info_main {
   width: 65%;
   border: 20px solid #F2F2F0;
@@ -102,12 +106,19 @@
 }
 
   /* --- Ipad --- */
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
   .resume_info {
     padding: 0;
     font-size: 85%;
   }
   .resume_container {
     width: auto;
+  }
+}
+
+@media only screen and (min-device-width: 1440px) {
+  .resume_info {
+    padding: 120px 100px 0;
+    font-size: 120%;
   }
 }
