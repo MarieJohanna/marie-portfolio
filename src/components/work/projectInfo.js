@@ -38,7 +38,7 @@ class ProjectInfo extends React.Component {
               <p><i>{project.language}</i></p>
               <span className="project_links">
                 <h5><a href={project.link} target="_blank">Demo</a></h5>
-                <h5><a href={project.github} target="_blank">Gitbub</a></h5>
+                <h5><a href={project.github} target="_blank">Github</a></h5>
               </span>
             </div>
             <div className="project_info_image">
