@@ -2,7 +2,7 @@
   "name": "react-starter",
   "version": "1.3.1",
   "private": true,
-  "homepage": "https://mariejohanna.github.io/marie-portfolio",
+  "homepage": "https://mariejohanna.me",
   "dependencies": {
     "eslint-config-technigo": "^1.5.2",
     "gh-pages": "^1.2.0",
