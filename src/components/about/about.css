@@ -8,6 +8,7 @@
 }
 
 #about {
+  background-image: url("./../../data/images/sunset_1600.jpg");
   background-size: cover;
 }
 
@@ -26,8 +27,7 @@
 /* --- Mobile --- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #about {
-    background: no-repeat center center;
-    background-size: cover;
+    background-image: url("./../../data/images/sunset_420.jpg");
   }
   .container_about h2 {
     letter-spacing: 5px;
@@ -50,8 +50,7 @@
   /* --- Ipad --- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   #about {
-    background: no-repeat center center;
-    background-size: cover;
+    background-image: url("./../../data/images/sunset_1024.jpg");
   }
   .container_about {
     margin-top: 4%;
@@ -67,5 +66,11 @@
     padding-top: 0;
     padding: 2%;
     margin-top: 0;
+  }
+}
+
+@media only screen and (min-device-width: 1440px) {
+  #about {
+    background-image: url("./../../data/images/sunset_2400.jpg");    
   }
 }

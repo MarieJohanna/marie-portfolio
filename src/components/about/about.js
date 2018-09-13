@@ -1,12 +1,11 @@
 import React from "react"
-import sunset from "./../../data/images/sunset3.jpg"
 import "./about.css"
 
 class About extends React.Component {
 
   render() {
     return (
-      <div id="about" className="container_about" style={{ backgroundImage: `url(${sunset})` }}>
+      <div id="about" className="container_about">
         <h2>About Me</h2>
         <div className="container_about_below">
           <p>My name is Marie and I&lsquo;m a web developer and digital transformation consultant.
