@@ -5,14 +5,18 @@
   "homepage": "https://www.mariejohanna.me",
   "dependencies": {
     "cryptiles": "^4.1.2",
+    "deep-extend": "^0.6.0",
     "eslint-config-technigo": "^1.5.2",
     "gh-pages": "^1.2.0",
     "hoek": "^5.0.4",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "macaddress": "^0.2.9",
+    "merge": "^1.2.1",
+    "randomatic": "^3.1.1",
     "react": "^16.2.0",
     "react-browser-router": "^2.1.2",
-    "react-dom": "^16.2.0",
+    "react-dev-utils": "^7.0.1",
+    "react-dom": "^16.8.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.0.16",
     "react-scrollchor": "^6.0.0",
@@ -28,6 +32,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint-plugin-jsx-a11y": "^6.1.1"
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "webpack-dev-server": "^3.1.14"
   }
 }
